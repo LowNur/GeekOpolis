@@ -1,0 +1,93 @@
+.product-col {
+    display: flex;
+    width: 80%;
+    height: fit-content;
+    background-color: var(--dark-blue-color);
+    border-radius: 25px;
+    border: 1px solid var(--gray-color);
+    margin: 8% auto 30px auto;
+    justify-content: left;
+    align-self: center;
+    align-items: center;
+    box-shadow: var(--black-box-shadow);
+    padding: 10px 0;
+}
+
+.limitar {
+    width: 43%;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+.infos-product {
+    width: 40%;
+    height: 70%;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product-col-02 {
+    padding-top: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.product-col-02 h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.classi {
+    padding-top: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.valor-produto {
+    padding-top: 7%;
+    color: green;
+    font-size: 30px;
+}
+
+.product-col-01-desc {
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-col-01-desc h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.product-col-01-desc p {
+    padding-top: 5%;
+    color: cornsilk;
+    font-weight: 200;
+}
+
+#adicionar-posição {
+    padding: 10% 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.seletor-quantidade-produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.box {
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: row;
+	background-image: var(--background-image);
+	background-size: auto;
+}
+
+main {
+	flex: 1;
+}

@@ -1,0 +1,233 @@
+.status {
+  color: var(--white-color);
+  background-color: transparent;
+  padding: 5px 30px;
+  font-weight: 50;
+  font-size: 15px;
+  gap: 10px;
+  transition: .2s !important;
+  margin-left: 30px;
+  border-radius: 100px;
+  border: 1.5px solid var(--blue-color);
+  border-left-width: 3px;
+  border-right-width: 3px;
+  transition: .3s !important;
+}
+
+.status:hover {
+  border-radius: 20px;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  transition: .3s !important;
+  text-shadow: 0px 0px 5px var(--gray-color), 0px 0px 5px var(--white-color);
+  transition: .2s;
+  cursor: pointer;
+}
+
+.status.ativo {
+  border: 1.5px solid var(--green-color);
+}
+
+.status.ativo:hover {
+  background-color: var(--green-color);
+  color: var(--black-color);
+}
+
+.status.inativo {
+  border: 1.5px solid var(--pink-color);
+}
+
+.status.inativo:hover {
+  background-color: var(--pink-color);
+  color: var(--black-color);
+}
+
+.box .adicionar-ao {
+  height: 51px;
+  left: 530px;
+  position: absolute;
+  top: 413px;
+  width: 307px;
+}
+
+.box .overlap-2 {
+  background-color: #48ffa7;
+  border-radius: 8px;
+  height: 51px;
+  position: relative;
+  width: 305px;
+}
+
+.box .rectangle {
+  background-color: #004166;
+  border-radius: 8px;
+  height: 42px;
+  left: 9px;
+  position: absolute;
+  top: 4px;
+  width: 288px;
+}
+
+.box .adicionar-ao-2 {
+  color: #ffffff;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 20px;
+  font-weight: 700;
+  height: 31px;
+  left: 40px;
+  padding-top: 4px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: 264px;
+}
+
+.box .carrinho-carrinho {
+  height: 27px;
+  left: 29px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 27px;
+}
+
+.box1 .rectangle-21 {
+  background-color: #00000099;
+  border-radius: 8px;
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 305px;
+}
+
+.box1 .group1 {
+  height: 42px;
+  left: 170px;
+  position: absolute;
+  top: 0;
+  width: 110px;
+}
+
+.input.container.disabled-stars {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.mini-imagens-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 430px;
+}
+
+.mini-imagem {
+  max-width: 100px;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.botao-adicionar[disabled] {
+  cursor: default;
+  opacity: 0.5;
+}
+
+span {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.modal-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.text-container {
+  width: 50%;
+}
+
+.carousel-container {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.categoria-nome {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Inter-Bold", Helvetica;
+  padding-bottom: 10px;
+  color: var(--white-color);
+  opacity: 0.7;
+}
+
+.produto-nome {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Inter-Bold", Helvetica;
+  color: var(--white-color);
+  padding-bottom: 55px;
+}
+
+.preco-produto {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Inter-Bold", Helvetica;
+  color: var(--white-color);
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+
+.slick-slider {
+  width: 100%;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  list-style: none;
+  text-align: center;
+  width: 100%;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots li.slick-active button {
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.descricao-produto {
+  padding-top: 50px;
+  font-size: 20px;
+  color: var(--white-color);
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: bold;
+}
+
+.product-name p {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.products-list {
+  max-height: 60% !important;
+}
+
+.products-list-carousel-container {
+  width: 50% !important;
+}
